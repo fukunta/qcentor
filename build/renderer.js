@@ -11,5 +11,5 @@ function closeNotification() {
     notification.classList.add('hidden');
 }
 function restartApp() {
-    electron.notificationApi.restartApp();
+    electron.appApi.restartApp();
 } 

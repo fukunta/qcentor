@@ -1,6 +1,6 @@
 {
   "name": "q-centor-app",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "QCentor Sales Management App",
   "main": "build/main.js",
   "scripts": {
