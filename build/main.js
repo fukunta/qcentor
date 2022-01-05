@@ -17,8 +17,9 @@ function createWindow() {
     },
     icon: iconPath,
   });
-  mainWindow.setTitle("QCentor App");
   mainWindow.maximize();
+  mainWindow.show()
+  mainWindow.setTitle("QCentor App");
   mainWindow.loadURL("http://localhost:3000");
   mainWindow.on("closed", function () {
     mainWindow = null;
