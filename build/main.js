@@ -22,7 +22,7 @@ function createWindow() {
   mainWindow.maximize();
   mainWindow.show()
   mainWindow.setTitle("QCentor App");
-  mainWindow.loadURL("http://localhost:3000");
+  mainWindow.loadURL("http://localhost:20739");
   mainWindow.on("closed", function () {
     mainWindow = null;
   });
